@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $(id -g)"
+$user=$(id -ng) |echo "hello $user"
