@@ -1,2 +1,2 @@
 #!/bin/bash
-$user=$(echo $(id -ng)) | echo "hello $user"
+user=$(whoami) | echo "hello $USER"
